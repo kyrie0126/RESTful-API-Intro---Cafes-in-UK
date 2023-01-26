@@ -32,12 +32,6 @@ class Cafe(db.Model):
 
 db.create_all()
 
-msg = {
-        "response": {
-            "success": "Successfully added the new cafe",
-            "failure": "Cafe was not added"
-        }
-    }
 
 @app.route("/")
 def home():

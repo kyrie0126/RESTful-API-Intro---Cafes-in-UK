@@ -80,7 +80,7 @@ def add_cafe():
     if new_cafe:
         return jsonify(response={"Success": "Cafe added!"})
     else:
-        return jsonify(response=msg["Error": "Cafe NOT added!"])
+        return jsonify(response={"Error": "Cafe NOT added!"})
 
 
 ## HTTP PUT/PATCH - Update Record
